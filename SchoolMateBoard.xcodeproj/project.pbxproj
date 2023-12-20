@@ -20,6 +20,15 @@
 		AF59615D2B32B2DA004C9810 /* KakaoSDKTalk in Frameworks */ = {isa = PBXBuildFile; productRef = AF59615C2B32B2DA004C9810 /* KakaoSDKTalk */; };
 		AF59615F2B32B2DA004C9810 /* KakaoSDKTemplate in Frameworks */ = {isa = PBXBuildFile; productRef = AF59615E2B32B2DA004C9810 /* KakaoSDKTemplate */; };
 		AF5961612B32B2DA004C9810 /* KakaoSDKUser in Frameworks */ = {isa = PBXBuildFile; productRef = AF5961602B32B2DA004C9810 /* KakaoSDKUser */; };
+		AF5961832B32EB79004C9810 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5961792B32EB79004C9810 /* HomeViewController.swift */; };
+		AF5961842B32EB79004C9810 /* SchoolRankTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF59617B2B32EB79004C9810 /* SchoolRankTableViewCell.xib */; };
+		AF5961852B32EB79004C9810 /* SchoolLogoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF59617C2B32EB79004C9810 /* SchoolLogoTableViewCell.swift */; };
+		AF5961862B32EB79004C9810 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF59617D2B32EB79004C9810 /* PostTableViewCell.swift */; };
+		AF5961872B32EB79004C9810 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF59617E2B32EB79004C9810 /* PostTableViewCell.xib */; };
+		AF5961882B32EB79004C9810 /* SchoolLogoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF59617F2B32EB79004C9810 /* SchoolLogoCollectionViewCell.xib */; };
+		AF5961892B32EB79004C9810 /* SchoolLogoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5961802B32EB79004C9810 /* SchoolLogoCollectionViewCell.swift */; };
+		AF59618A2B32EB79004C9810 /* SchoolLogoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF5961812B32EB79004C9810 /* SchoolLogoTableViewCell.xib */; };
+		AF59618B2B32EB79004C9810 /* SchoolRankTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5961822B32EB79004C9810 /* SchoolRankTableViewCell.swift */; };
 		AFFAC7FC2B147BA800C2347E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFAC7FB2B147BA800C2347E /* AppDelegate.swift */; };
 		AFFAC7FE2B147BA800C2347E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFAC7FD2B147BA800C2347E /* SceneDelegate.swift */; };
 		AFFAC8032B147BA800C2347E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFFAC8012B147BA800C2347E /* Main.storyboard */; };
@@ -37,6 +46,15 @@
 
 /* Begin PBXFileReference section */
 		AF5913062B31FD6D00B9649C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AF5961792B32EB79004C9810 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AF59617B2B32EB79004C9810 /* SchoolRankTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SchoolRankTableViewCell.xib; sourceTree = "<group>"; };
+		AF59617C2B32EB79004C9810 /* SchoolLogoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolLogoTableViewCell.swift; sourceTree = "<group>"; };
+		AF59617D2B32EB79004C9810 /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		AF59617E2B32EB79004C9810 /* PostTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
+		AF59617F2B32EB79004C9810 /* SchoolLogoCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SchoolLogoCollectionViewCell.xib; sourceTree = "<group>"; };
+		AF5961802B32EB79004C9810 /* SchoolLogoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolLogoCollectionViewCell.swift; sourceTree = "<group>"; };
+		AF5961812B32EB79004C9810 /* SchoolLogoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SchoolLogoTableViewCell.xib; sourceTree = "<group>"; };
+		AF5961822B32EB79004C9810 /* SchoolRankTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolRankTableViewCell.swift; sourceTree = "<group>"; };
 		AFFAC7F82B147BA800C2347E /* SchoolMateBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchoolMateBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFFAC7FB2B147BA800C2347E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFFAC7FD2B147BA800C2347E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +95,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF5961772B32EB25004C9810 /* Board */ = {
+			isa = PBXGroup;
+			children = (
+				AFFAC81F2B15C3B300C2347E /* PostInfo */,
+				AFFAC8142B14879F00C2347E /* WritingViewController.swift */,
+				AFFAC8172B148E7E00C2347E /* PostViewController.swift */,
+				AFFAC8102B14877700C2347E /* BoardViewController.swift */,
+				AFFAC81B2B1492BE00C2347E /* BoardCollectionViewCell.swift */,
+				AFFAC81C2B1492BE00C2347E /* BoardCollectionViewCell.xib */,
+				AF5913062B31FD6D00B9649C /* LoginViewController.swift */,
+			);
+			path = Board;
+			sourceTree = "<group>";
+		};
+		AF5961782B32EB79004C9810 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AF5961792B32EB79004C9810 /* HomeViewController.swift */,
+				AF59617A2B32EB79004C9810 /* Cell */,
+			);
+			name = Home;
+			path = "../../school-mate-iOS/SchoolMate/Home";
+			sourceTree = "<group>";
+		};
+		AF59617A2B32EB79004C9810 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				AF59617B2B32EB79004C9810 /* SchoolRankTableViewCell.xib */,
+				AF59617C2B32EB79004C9810 /* SchoolLogoTableViewCell.swift */,
+				AF59617D2B32EB79004C9810 /* PostTableViewCell.swift */,
+				AF59617E2B32EB79004C9810 /* PostTableViewCell.xib */,
+				AF59617F2B32EB79004C9810 /* SchoolLogoCollectionViewCell.xib */,
+				AF5961802B32EB79004C9810 /* SchoolLogoCollectionViewCell.swift */,
+				AF5961812B32EB79004C9810 /* SchoolLogoTableViewCell.xib */,
+				AF5961822B32EB79004C9810 /* SchoolRankTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		AFFAC7EF2B147BA800C2347E = {
 			isa = PBXGroup;
 			children = (
@@ -96,19 +153,14 @@
 		AFFAC7FA2B147BA800C2347E /* SchoolMateBoard */ = {
 			isa = PBXGroup;
 			children = (
-				AFFAC81F2B15C3B300C2347E /* PostInfo */,
+				AF5961782B32EB79004C9810 /* Home */,
+				AF5961772B32EB25004C9810 /* Board */,
 				AFFAC7FB2B147BA800C2347E /* AppDelegate.swift */,
 				AFFAC7FD2B147BA800C2347E /* SceneDelegate.swift */,
 				AFFAC8012B147BA800C2347E /* Main.storyboard */,
 				AFFAC8042B147BAA00C2347E /* Assets.xcassets */,
 				AFFAC8062B147BAA00C2347E /* LaunchScreen.storyboard */,
 				AFFAC8092B147BAA00C2347E /* Info.plist */,
-				AFFAC8142B14879F00C2347E /* WritingViewController.swift */,
-				AFFAC8172B148E7E00C2347E /* PostViewController.swift */,
-				AFFAC8102B14877700C2347E /* BoardViewController.swift */,
-				AFFAC81B2B1492BE00C2347E /* BoardCollectionViewCell.swift */,
-				AFFAC81C2B1492BE00C2347E /* BoardCollectionViewCell.xib */,
-				AF5913062B31FD6D00B9649C /* LoginViewController.swift */,
 			);
 			path = SchoolMateBoard;
 			sourceTree = "<group>";
@@ -198,9 +250,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF59618A2B32EB79004C9810 /* SchoolLogoTableViewCell.xib in Resources */,
 				AFFAC8082B147BAA00C2347E /* LaunchScreen.storyboard in Resources */,
 				AFFAC8052B147BAA00C2347E /* Assets.xcassets in Resources */,
+				AF5961882B32EB79004C9810 /* SchoolLogoCollectionViewCell.xib in Resources */,
 				AFFAC8032B147BA800C2347E /* Main.storyboard in Resources */,
+				AF5961872B32EB79004C9810 /* PostTableViewCell.xib in Resources */,
+				AF5961842B32EB79004C9810 /* SchoolRankTableViewCell.xib in Resources */,
 				AFFAC81E2B1492BE00C2347E /* BoardCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,11 +270,16 @@
 			files = (
 				AFFAC8152B14879F00C2347E /* WritingViewController.swift in Sources */,
 				AFFAC8252B15C3E900C2347E /* PostModel.swift in Sources */,
+				AF5961862B32EB79004C9810 /* PostTableViewCell.swift in Sources */,
+				AF5961892B32EB79004C9810 /* SchoolLogoCollectionViewCell.swift in Sources */,
 				AFFAC7FC2B147BA800C2347E /* AppDelegate.swift in Sources */,
 				AFFAC7FE2B147BA800C2347E /* SceneDelegate.swift in Sources */,
 				AFFAC8122B14877700C2347E /* BoardViewController.swift in Sources */,
 				AFFAC8182B148E7E00C2347E /* PostViewController.swift in Sources */,
 				AFFAC8232B15C3E000C2347E /* PostManager.swift in Sources */,
+				AF59618B2B32EB79004C9810 /* SchoolRankTableViewCell.swift in Sources */,
+				AF5961832B32EB79004C9810 /* HomeViewController.swift in Sources */,
+				AF5961852B32EB79004C9810 /* SchoolLogoTableViewCell.swift in Sources */,
 				AFFAC8212B15C3D100C2347E /* PostData.swift in Sources */,
 				AF5913072B31FD6D00B9649C /* LoginViewController.swift in Sources */,
 				AFFAC81D2B1492BE00C2347E /* BoardCollectionViewCell.swift in Sources */,

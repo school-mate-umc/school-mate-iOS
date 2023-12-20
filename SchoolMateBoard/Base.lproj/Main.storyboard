@@ -558,22 +558,6 @@
             </objects>
             <point key="canvasLocation" x="2075.5725190839694" y="430.98591549295776"/>
         </scene>
-        <!--홈-->
-        <scene sceneID="DIr-XU-C2Q">
-            <objects>
-                <viewController id="dPs-4C-w9U" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="hxC-Sj-XjB">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="7b0-RR-yRi"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="홈" id="dBC-MX-7Pi"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ez9-OF-fxa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-288" y="431"/>
-        </scene>
         <!--Login View Controller-->
         <scene sceneID="mqd-KG-xOe">
             <objects>
@@ -599,7 +583,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="dPs-4C-w9U" kind="relationship" relationship="viewControllers" id="9hm-aA-MNm"/>
+                        <segue destination="GOM-ug-G8v" kind="relationship" relationship="viewControllers" id="hlv-r5-TDP"/>
                         <segue destination="2QC-M4-83F" kind="relationship" relationship="viewControllers" id="Aho-cN-MfL"/>
                     </connections>
                 </tabBarController>
@@ -626,10 +610,76 @@
             </objects>
             <point key="canvasLocation" x="639" y="431"/>
         </scene>
+        <!--Home-->
+        <scene sceneID="If9-Xy-dNg">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController" id="GOM-ug-G8v" customClass="HomeViewController" customModule="SchoolMate" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PP7-wW-3IW">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bI7-Ny-WTB">
+                                <rect key="frame" x="0.0" y="59" width="393" height="80"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="School Mate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="37e-do-a1c">
+                                        <rect key="frame" x="132" y="25.666666666666671" width="129" height="29"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m1x-56-x2x">
+                                        <rect key="frame" x="344.33333333333331" y="23.000000000000004" width="30.666666666666686" height="34.333333333333343"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="bell" catalog="system"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.83137254900000002" green="0.83529411760000005" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="Grn-jQ-bxw"/>
+                                    <constraint firstItem="37e-do-a1c" firstAttribute="centerY" secondItem="bI7-Ny-WTB" secondAttribute="centerY" id="ItK-rB-06q"/>
+                                    <constraint firstItem="37e-do-a1c" firstAttribute="centerX" secondItem="bI7-Ny-WTB" secondAttribute="centerX" id="QuG-it-Faa"/>
+                                    <constraint firstAttribute="trailing" secondItem="m1x-56-x2x" secondAttribute="trailing" constant="18" id="VxK-gs-xFg"/>
+                                    <constraint firstItem="m1x-56-x2x" firstAttribute="leading" secondItem="37e-do-a1c" secondAttribute="trailing" constant="83.333333333333371" id="bNv-SR-cml"/>
+                                    <constraint firstAttribute="width" constant="430" id="iaa-Zo-Ka4"/>
+                                    <constraint firstItem="m1x-56-x2x" firstAttribute="centerY" secondItem="37e-do-a1c" secondAttribute="centerY" id="jAP-wh-gWa"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="aem-nx-f1m">
+                                <rect key="frame" x="0.0" y="139" width="393" height="630"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="OFi-ah-c6X"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="bI7-Ny-WTB" firstAttribute="leading" secondItem="OFi-ah-c6X" secondAttribute="leading" id="0Kt-Tz-kjD"/>
+                            <constraint firstItem="aem-nx-f1m" firstAttribute="top" secondItem="bI7-Ny-WTB" secondAttribute="bottom" id="1HX-Vy-TQL"/>
+                            <constraint firstItem="bI7-Ny-WTB" firstAttribute="top" secondItem="OFi-ah-c6X" secondAttribute="top" id="Rg4-bB-6f1"/>
+                            <constraint firstItem="bI7-Ny-WTB" firstAttribute="trailing" secondItem="OFi-ah-c6X" secondAttribute="trailing" id="UxZ-Dc-S46"/>
+                            <constraint firstItem="OFi-ah-c6X" firstAttribute="bottom" secondItem="aem-nx-f1m" secondAttribute="bottom" id="YM0-QT-R65"/>
+                            <constraint firstItem="aem-nx-f1m" firstAttribute="leading" secondItem="OFi-ah-c6X" secondAttribute="leading" id="xr1-z6-JyN"/>
+                            <constraint firstItem="aem-nx-f1m" firstAttribute="trailing" secondItem="OFi-ah-c6X" secondAttribute="trailing" id="ygq-rD-E6t"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" selectedImage="house.fill" catalog="system" id="vaV-Sp-Ywp">
+                        <color key="badgeColor" red="0.83137254900000002" green="0.83529411760000005" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </tabBarItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="tableView" destination="aem-nx-f1m" id="q27-xZ-Vru"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B4Y-M4-ph9" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-266" y="431"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="bell" catalog="system" width="125" height="128"/>
         <image name="hand.thumbsup" catalog="system" width="123" height="128"/>
         <image name="heart" catalog="system" width="128" height="107"/>
+        <image name="house.fill" catalog="system" width="128" height="104"/>
         <image name="pencil.line" catalog="system" width="128" height="117"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
         <image name="photo" catalog="system" width="128" height="93"/>
