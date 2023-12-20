@@ -24,29 +24,30 @@ class LoginViewController: UIViewController {
     
     func setupAttribute() {
         // 이미지(text)
-        let TextImageView = UIImageView()
-        TextImageView.image = UIImage(named: "SchoolMateText")
-        self.view.addSubview(TextImageView)
+        let textLabel = UILabel()
+        textLabel.text = "동창생 커뮤니티 플랫폼,"
+        textLabel.textAlignment = .center
+        textLabel.textColor = UIColor(red: 98/255, green: 100/255, blue: 153/255, alpha: 1)
+        textLabel.font = UIFont.systemFont(ofSize: 25)
+        view.addSubview(textLabel)
         
         // text autolayout
-        TextImageView.contentMode = .scaleAspectFit
-        TextImageView.translatesAutoresizingMaskIntoConstraints = false
+        textLabel.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
-            TextImageView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 50),
-            TextImageView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            TextImageView.widthAnchor.constraint(equalToConstant: 200),
+            textLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 50),
+            textLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
         ])
         
         // 이미지(logo)
         let LogoImageView = UIImageView()
         LogoImageView.image = UIImage(named: "SchoolMateLogo")
-        self.view.addSubview(LogoImageView)
+        view.addSubview(LogoImageView)
         
         // logo autolayout
         LogoImageView.contentMode = .scaleAspectFit
         LogoImageView.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
-            LogoImageView.topAnchor.constraint(equalTo: TextImageView.bottomAnchor, constant: 0),
+            LogoImageView.topAnchor.constraint(equalTo: textLabel.bottomAnchor, constant: 0),
             LogoImageView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             LogoImageView.widthAnchor.constraint(equalToConstant: 200),
         ])
