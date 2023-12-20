@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="535" id="KGk-i7-Jjw" customClass="SchoolRankTableViewCell" customModule="SchoolMate" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="430" height="535"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="430" height="535"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="나의 학교 찾아보기" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pDq-eb-kkj">
+                        <rect key="frame" x="8" y="20" width="414" height="66"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="66" id="qXF-YR-ey8"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  실시간 학교 랭킹" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xdw-7R-MtM">
+                        <rect key="frame" x="8" y="116" width="414" height="64"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="64" id="urv-ZU-zX5"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lp4-EJ-U8l">
+                        <rect key="frame" x="42" y="379" width="346" height="58.666666666666686"/>
+                        <color key="backgroundColor" red="0.83137254900000002" green="0.83529411760000005" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="58.710000000000001" id="olZ-4M-9nW"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" title="우리 학교 응원하러 가기"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="지금 우리 학교는?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v2q-Co-F67">
+                        <rect key="frame" x="22" y="472.66666666666669" width="168" height="28.666666666666686"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I8y-fj-MAI">
+                        <rect key="frame" x="375" y="33" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="pKb-VD-8lb"/>
+                            <constraint firstAttribute="width" constant="40" id="yQ9-5m-VyZ"/>
+                        </constraints>
+                        <color key="tintColor" systemColor="labelColor"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" image="magnifyingglass" catalog="system"/>
+                    </button>
+                    <stackView opaque="NO" contentMode="scaleToFill" spacing="98" translatesAutoresizingMaskIntoConstraints="NO" id="0J4-Pa-WAb">
+                        <rect key="frame" x="28" y="180" width="374" height="63"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1. 학교 이름" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RHB-IM-Q2U">
+                                <rect key="frame" x="0.0" y="0.0" width="160" height="63"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="bbw-GK-ACW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="포인트 종합" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8tF-nc-86U">
+                                <rect key="frame" x="258" y="0.0" width="116" height="63"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="63" id="6GE-ZS-3Hb"/>
+                            <constraint firstAttribute="trailing" secondItem="8tF-nc-86U" secondAttribute="trailing" id="rIl-xg-gN8"/>
+                        </constraints>
+                    </stackView>
+                    <stackView opaque="NO" contentMode="scaleToFill" spacing="66" translatesAutoresizingMaskIntoConstraints="NO" id="CcC-S6-nxw">
+                        <rect key="frame" x="28" y="243" width="374" height="63"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2. 학교 이름" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lIF-xQ-tfK">
+                                <rect key="frame" x="0.0" y="0.0" width="160" height="63"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="6Y0-8j-t7s"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="포인트 종합" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Pt-f7-Ie3">
+                                <rect key="frame" x="226" y="0.0" width="148" height="63"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="63" id="KA0-UO-PvV"/>
+                            <constraint firstAttribute="trailing" secondItem="5Pt-f7-Ie3" secondAttribute="trailing" id="sZO-T0-ZHU"/>
+                        </constraints>
+                    </stackView>
+                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f7s-Xh-fvH">
+                        <rect key="frame" x="28" y="306" width="374" height="63"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3. 학교 이름" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eyY-Yi-XiW">
+                                <rect key="frame" x="0.0" y="0.0" width="160" height="63"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="yaf-bO-Rcf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="포인트 종합" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J5N-Yh-4Qi">
+                                <rect key="frame" x="160" y="0.0" width="214" height="63"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="63" id="2Md-k7-fzV"/>
+                            <constraint firstAttribute="trailing" secondItem="J5N-Yh-4Qi" secondAttribute="trailing" id="j45-05-Mn5"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="v2q-Co-F67" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="22" id="0iw-eb-8yg"/>
+                    <constraint firstAttribute="trailing" secondItem="I8y-fj-MAI" secondAttribute="trailing" constant="15" id="6Gt-O7-tBW"/>
+                    <constraint firstItem="CcC-S6-nxw" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="8" id="J3C-SF-BIc"/>
+                    <constraint firstItem="Xdw-7R-MtM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="J7u-Pw-KnX"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Lp4-EJ-U8l" secondAttribute="trailing" constant="22" id="K31-4H-Eby"/>
+                    <constraint firstItem="pDq-eb-kkj" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="NGd-Bd-xAz"/>
+                    <constraint firstItem="Xdw-7R-MtM" firstAttribute="top" secondItem="pDq-eb-kkj" secondAttribute="bottom" constant="30" id="S0h-01-Fgb"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="0J4-Pa-WAb" secondAttribute="trailing" constant="8" id="SEP-Ak-uzt"/>
+                    <constraint firstItem="pDq-eb-kkj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="TFF-HN-Jhv"/>
+                    <constraint firstItem="f7s-Xh-fvH" firstAttribute="top" secondItem="CcC-S6-nxw" secondAttribute="bottom" id="UUh-ZX-iI2"/>
+                    <constraint firstAttribute="trailing" secondItem="Xdw-7R-MtM" secondAttribute="trailing" constant="8" id="Vps-sL-zRz"/>
+                    <constraint firstItem="f7s-Xh-fvH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="8" id="Yty-EW-3XJ"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="f7s-Xh-fvH" secondAttribute="trailing" constant="8" id="ZzU-rM-Kaq"/>
+                    <constraint firstItem="0J4-Pa-WAb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="8" id="bwm-8e-cq9"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="CcC-S6-nxw" secondAttribute="trailing" constant="8" id="dHs-n3-c17"/>
+                    <constraint firstItem="CcC-S6-nxw" firstAttribute="top" secondItem="0J4-Pa-WAb" secondAttribute="bottom" id="e2i-Dn-a2T"/>
+                    <constraint firstItem="pDq-eb-kkj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="gCQ-ki-z5Q"/>
+                    <constraint firstItem="Lp4-EJ-U8l" firstAttribute="top" secondItem="f7s-Xh-fvH" secondAttribute="bottom" constant="10" id="h7x-K0-Oeb"/>
+                    <constraint firstItem="v2q-Co-F67" firstAttribute="top" secondItem="Lp4-EJ-U8l" secondAttribute="bottom" constant="35" id="iia-n0-CsZ"/>
+                    <constraint firstItem="I8y-fj-MAI" firstAttribute="centerY" secondItem="pDq-eb-kkj" secondAttribute="centerY" id="l63-B1-OvB"/>
+                    <constraint firstItem="Lp4-EJ-U8l" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="22" id="ndx-xs-NOu"/>
+                    <constraint firstItem="0J4-Pa-WAb" firstAttribute="top" secondItem="Xdw-7R-MtM" secondAttribute="bottom" id="vfl-9I-HTc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="firstRank" destination="0J4-Pa-WAb" id="7w3-TV-Qlh"/>
+                <outlet property="goToSchool" destination="Lp4-EJ-U8l" id="LMr-iw-qg1"/>
+                <outlet property="nowSchool" destination="v2q-Co-F67" id="Md8-KA-Tso"/>
+                <outlet property="schoolRank" destination="Xdw-7R-MtM" id="cQT-RJ-2mA"/>
+                <outlet property="searchSchool" destination="pDq-eb-kkj" id="b3i-9j-SPV"/>
+                <outlet property="secondRank" destination="CcC-S6-nxw" id="Wx1-f0-FZT"/>
+                <outlet property="thirdRank" destination="f7s-Xh-fvH" id="CM3-5s-Qzm"/>
+            </connections>
+            <point key="canvasLocation" x="-325.19083969465646" y="173.59154929577466"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="magnifyingglass" catalog="system" width="128" height="117"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
