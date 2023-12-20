@@ -613,7 +613,7 @@
         <!--Home-->
         <scene sceneID="If9-Xy-dNg">
             <objects>
-                <viewController storyboardIdentifier="HomeViewController" id="GOM-ug-G8v" customClass="HomeViewController" customModule="SchoolMate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" id="GOM-ug-G8v" customClass="HomeViewController" customModule="SchoolMateBoard" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PP7-wW-3IW">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -641,7 +641,6 @@
                                     <constraint firstItem="37e-do-a1c" firstAttribute="centerX" secondItem="bI7-Ny-WTB" secondAttribute="centerX" id="QuG-it-Faa"/>
                                     <constraint firstAttribute="trailing" secondItem="m1x-56-x2x" secondAttribute="trailing" constant="18" id="VxK-gs-xFg"/>
                                     <constraint firstItem="m1x-56-x2x" firstAttribute="leading" secondItem="37e-do-a1c" secondAttribute="trailing" constant="83.333333333333371" id="bNv-SR-cml"/>
-                                    <constraint firstAttribute="width" constant="430" id="iaa-Zo-Ka4"/>
                                     <constraint firstItem="m1x-56-x2x" firstAttribute="centerY" secondItem="37e-do-a1c" secondAttribute="centerY" id="jAP-wh-gWa"/>
                                 </constraints>
                             </view>
